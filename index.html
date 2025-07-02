@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prathamesh's Adventures - An Explorer's Journal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="preloader">
+        <lottie-player src="https://lottie.host/82b992f9-115a-4648-8479-58d11a68770c/4j22t5A8iA.json" background="transparent" speed="1" style="width: 250px; height: 250px;" loop autoplay></lottie-player>
+    </div>
+
+    <header id="hero">
+        <div class="hero-content">
+            <h1 class="main-heading" data-splitting>An Explorer's Journal</h1>
+            <p class="sub-heading">Pune & Beyond</p>
+        </div>
+        <div class="hero-bg-shape"></div>
+        <a href="#about" class="scroll-down-indicator">
+            <span>Scroll Down</span>
+            <i class="fa-solid fa-arrow-down"></i>
+        </a>
+    </header>
+
+    <section id="about" class="content-section">
+        <div class="section-container about-container">
+            <div class="about-text">
+                <h2 class="section-title">The Explorer</h2>
+                <p class="section-paragraph">
+                    Living in Fursungi, Hadapsar, I found myself at the crossroads of urban energy and ancient history. This journal is a living document of my journey—a collection of moments, from the misty peaks of the Sahyadris to the spiritual heart of Maharashtra. It's more than a list; it's a story told one footstep at a time.
+                </p>
+            </div>
+            <div class="photo-collage">
+                <img src="https://cdn.wrytin.com/images/wrytup/r/1024/img-20190706-001050-jxqg76eh.jpeg" alt="Collage image 1" class="collage-photo">
+                <img src="https://nrivision.com/wp-content/uploads/2021/07/visarpur-820x450.jpg" alt="Collage image 2" class="collage-photo">
+                <img src="https://www.savaari.com/blog/wp-content/uploads/2022/11/Shaniwaarwada_Pune_11zon.jpg" alt="Collage image 3" class="collage-photo">
+                <img src="https://thetempleguru.com/wp-content/uploads/2024/12/Dagdusheth-Halwai-Ganpati-Temple-1.jpg" alt="Collage image 4" class="collage-photo">
+                <img src="https://thumbs.dreamstime.com/b/shree-swaminarayan-temple-ambegaon-pune-baps-one-best-maintained-temples-has-some-magnificent-architectural-value-121728693.jpg" alt="Collage image 5" class="collage-photo">
+            </div>
+        </div>
+    </section>
+
+    <section id="stats" class="content-section light-bg">
+        <div class="background-icons">
+            <i class="bg-icon fa-solid fa-car"></i><i class="bg-icon fa-solid fa-motorcycle"></i><i class="bg-icon fa-solid fa-gopuram"></i><i class="bg-icon fa-solid fa-tree"></i><i class="bg-icon fa-solid fa-camera-retro"></i><i class="bg-icon fa-solid fa-umbrella-beach"></i><i class="bg-icon fa-solid fa-shoe-prints"></i>
+        </div>
+        <div class="section-container">
+            <h2 class="section-title">Journey in Numbers</h2>
+            <div class="stats-grid">
+                <div class="stat-item"><div class="stat-number-wrapper"><span class="stat-number" data-target="7">0</span></div><span class="stat-label">Forts Conquered</span></div>
+                <div class="stat-item"><div class="stat-number-wrapper"><span class="stat-number" data-target="15">0</span></div><span class="stat-label">Temples Visited</span></div>
+                <div class="stat-item"><div class="stat-number-wrapper"><span class="stat-number" data-target="3">0</span></div><span class="stat-label">Major Treks</span></div>
+                <div class="stat-item"><div class="stat-number-wrapper"><span class="stat-number" data-target="99">0</span><span class="plus-sign">+</span></div><span class="stat-label">Memories Made</span></div>
+            </div>
+        </div>
+    </section>
+    
+    <main id="places-section-wrapper">
+        <div id="places-section">
+            <div class="places-scroller">
+                <div class="place-card intro-card"><h3 class="section-title">My Travelogue</h3><p>My detailed collection of adventures. Click 'Explore' to dive in.</p></div>
+                <div class="place-card" data-place="visapur"><img src="https://i.imgur.com/8aM0B81.jpg" alt="Visapur Fort"><div class="card-content"><h3>Visapur Fort</h3><p>Monsoon Waterfall Trek</p><button class="details-btn">Explore</button></div></div>
+                <div class="place-card" data-place="andharban"><img src="https://i.imgur.com/eE5p80W.jpg" alt="Andharban Trek"><div class="card-content"><h3>Andharban Trek</h3><p>The Dark Forest Descent</p><button class="details-btn">Explore</button></div></div>
+                <div class="place-card" data-place="shaniwarwada"><img src="https://i.imgur.com/kS9N9j0.jpg" alt="Shaniwar Wada"><div class="card-content"><h3>Shaniwar Wada</h3><p>Echoes of the Peshwas</p><button class="details-btn">Explore</button></div></div>
+                <div class="place-card" data-place="jejuri"><img src="https://i.imgur.com/O4q5V9m.jpg" alt="Jejuri"><div class="card-content"><h3>Jejuri</h3><p>The Golden Turmeric Town</p><button class="details-btn">Explore</button></div></div>
+                <div class="place-card" data-place="hadashi"><img src="https://i.imgur.com/tB5H99I.jpg" alt="Hadashi Temple"><div class="card-content"><h3>Hadashi Temple</h3><p>Serenity Near Mulshi</p><button class="details-btn">Explore</button></div></div>
+                <div class="place-card" data-place="ramdara"><img src="https://i.imgur.com/6XlM9pL.jpg" alt="Ramdara Temple"><div class="card-content"><h3>Ramdara Temple</h3><p>The Hidden Oasis</p><button class="details-btn">Explore</button></div></div>
+                <div class="place-card final-card"><h3>The Journey Continues...</h3></div>
+            </div>
+        </div>
+    </main>
+    
+    <section id="contact" class="content-section light-bg">
+        <div class="section-container">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="section-paragraph">Have a question, a suggestion, or want to share your own adventure? I'd love to hear from you.</p>
+            <form class="contact-form">
+                <div class="form-row">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email Address" required>
+                </div>
+                <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+                <button type="submit" class="details-btn form-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer id="main-footer">
+        <div class="footer-container">
+            <div class="footer-column footer-about">
+                <h3 class="prathamesh-name" data-splitting>Prathamesh</h3>
+                <p>An explorer from Fursungi, Pune, documenting my journeys one step at a time.</p>
+            </div>
+            <div class="footer-column">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="#about">The Explorer</a></li>
+                    <li><a href="#stats">The Numbers</a></li>
+                    <li><a href="#places-section-wrapper">The Travelogue</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Connect</h4>
+                <div class="social-icons">
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom"><p>© 2024 My Pune Adventures. Crafted with <i class="fa-solid fa-heart"></i>.</p></div>
+    </footer>
+
+    <div id="popup-container">
+        <div class="popup-content">
+            <button id="popup-close-btn"><i class="fa-solid fa-xmark"></i></button>
+            <h2 id="popup-title">Place Title</h2>
+            <div class="popup-details"><span id="popup-visits"><i class="fa-solid fa-calendar-check"></i></span><span id="popup-date"><i class="fa-solid fa-clock"></i></span></div>
+            <div class="popup-meta"><span id="popup-best-time"><i class="fa-solid fa-star"></i></span><span id="popup-difficulty"><i class="fa-solid fa-mountain-sun"></i></span></div>
+            <p id="popup-history"></p>
+            <div id="popup-gallery">
+                <div class="gallery-image-main"><img src="https://i.imgur.com/tB5H99I.jpg" alt="Gallery image"></div><div class="gallery-thumbnails"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
